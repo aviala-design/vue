@@ -1,17 +1,20 @@
 @import "./utils/radius.less";
 @import "./utils/select.less";
 @import "./utils/shadow.less";
+@import "./utils/animation.less";
 
 .button {
     padding: 10px;
-    background-color: #5395FD;
+    background-color: var(--mist-color-primary);
     border: 0px;
     cursor: pointer;
-    transition-duration: 0.4s;
+    
     font-size: 20px;
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
+
+    transition-duration: 0.4s;
     transition-timing-function: cubic-bezier(1, -0.01, 0, 1.01);
 
     &:hover {
@@ -28,5 +31,6 @@
     .mist-radius-default;
     .mist-select-none;
     .mist-shadow-default;
+    .mist-animation-transition-duration;
 }
 
