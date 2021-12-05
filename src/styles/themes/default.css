@@ -1,5 +1,6 @@
 :root {
     --mist-color-primary: #5395FD;
+    --mist-color-primary-dark: #4A71B4;
     --mist-color-warning: #FFD83A;
     --mist-color-text-light: #FFFFFF;
     --mist-color-text-dark: #000000f0;
@@ -7,9 +8,9 @@
 }
 
 :root {
-    --mist-radius-sm: 6px;
-    --mist-radius-md: 10px;
-    --mist-radius-lg: 16px;
+    --mist-radius-sm: 4px;
+    --mist-radius-md: 6px;
+    --mist-radius-lg: 12px;
 }
 
 :root {
