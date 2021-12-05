@@ -1,0 +1,32 @@
+@import "./utils/radius.less";
+@import "./utils/select.less";
+@import "./utils/shadow.less";
+
+.button {
+    padding: 10px;
+    background-color: #5395FD;
+    border: 0px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    transition-timing-function: cubic-bezier(1, -0.01, 0, 1.01);
+
+    &:hover {
+        transition-duration: 0.4s;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.13);
+        transform: scale(1.01, 1.01);
+    }
+
+    &:active {
+        transform: none;
+        transition: 250ms;
+    }
+
+    .mist-radius-default;
+    .mist-select-none;
+    .mist-shadow-default;
+}
+

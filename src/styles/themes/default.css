@@ -1,0 +1,20 @@
+:root {
+    --mist-color-primary: #5395FD;
+    --mist-color-warning: #FFD83A;
+    --mist-color-text-light: #FFFFFF;
+    --mist-color-text-dark: #000000f0;
+    --mist-color-default-bg: #FFFFFF;
+}
+
+:root {
+    --mist-radius-sm: 6px;
+    --mist-radius-md: 10px;
+    --mist-radius-lg: 16px;
+}
+
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--mist-color-text-dark);
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
