@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HarmonyOS Sans SC';
+    src: url('./HarmonyOS_Sans_SC_Black.ttf') url('./HarmonyOS_Sans_SC_Bold.ttf') url('./HarmonyOS_Sans_SC_Medium.ttf') url('./HarmonyOS_Sans_SC_Regular.ttf') url('./HarmonyOS_Sans_SC_Light.ttf') url('./HarmonyOS_Sans_SC_Thin.ttf') swap;
+}
+
+@font-face {
+    font-family: 'HarmonyOS Sans';
+    src: url('./HarmonyOS_Sans_Black.ttf') url('./HarmonyOS_Sans_Bold.ttf') url('./HarmonyOS_Sans_Medium.ttf') url('./HarmonyOS_Sans_Regular.ttf') url('./HarmonyOS_Sans_Light.ttf') url('./HarmonyOS_Sans_Thin.ttf') swap;
+}

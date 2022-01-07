@@ -1,6 +1,6 @@
 
 
-declare module "*.module.less" {
+declare module "*.less" {
   const cls: { readonly [key: string]: string };
   export default cls;
 }

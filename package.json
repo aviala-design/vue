@@ -16,6 +16,8 @@
         "autoprefixer": "^10.4.0",
         "cssnano": "^5.0.12",
         "less": "^4.1.2",
+        "lorem-ipsum": "^2.0.4",
+        "modern-normalize": "^1.1.0",
         "postcss": "^8.4.4",
         "postcss-import": "^14.0.2",
         "postcss-nesting": "^10.0.2",

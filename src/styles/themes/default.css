@@ -8,14 +8,12 @@
 }
 
 :root {
-    --mist-radius-sm: 4px;
-    --mist-radius-md: 6px;
-    --mist-radius-lg: 12px;
-}
-
-:root {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: var(--mist-color-text-dark);
     font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+    font-family: 'HarmonyOS Sans' 'HarmonyOS Sans SC', Arial, Helvetica, sans-serif;
 }
