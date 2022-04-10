@@ -19,5 +19,16 @@ export default defineConfig({
       }
     }
   },
+  build: {
+    lib: {
+      entry: "src/index.ts",
+      formats: ["es", "cjs"],
+      name: "Connect",
+      fileName: f => `index.${f}.js`
+    },
+    rollupOptions: {
+      external: ['vue']
+    }
+  },
   plugins: [jsx(), vue()]
 })

@@ -1,12 +1,26 @@
 {
-    "name": "mistlight",
-    "version": "0.0.0",
+    "name": "@huton/vue",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist",
+        "types"
+    ],
+    "types": "types/index.d.ts",
+    "exports": {
+        "import": "./dist/index.es.js",
+        "require": "./dist/index.cjs.js",
+        "default": "./dist/index.es.js"
+    },
+    "version": "0.0.1",
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc --noEmit && vite build",
+        "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir ./types -t esnext --jsx preserve --types vite/client --moduleResolution node ./src/index.ts",
         "serve": "vite preview"
     },
-    "dependencies": {
+    "peerDependencies": {
         "vue": "^3.2.16"
     },
     "devDependencies": {
